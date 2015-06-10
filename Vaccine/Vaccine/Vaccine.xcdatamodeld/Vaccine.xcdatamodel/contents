@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8118.17" systemVersion="15A178w" minimumToolsVersion="Automatic">
+    <entity name="Filho" representedClassName=".Filho" syncable="YES">
+        <attribute name="backgroundColor" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="checkCalendario" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="genero" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="nascimento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vacinas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Vacina" inverseName="filho" inverseEntity="Vacina" syncable="YES"/>
+    </entity>
+    <entity name="Vacina" representedClassName=".Vacina" syncable="YES">
+        <attribute name="check" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="contras" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doencas" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="efeitos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meses" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="filho" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Filho" inverseName="vacinas" inverseEntity="Filho" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Filho" positionX="-324" positionY="36" width="128" height="135"/>
+        <element name="Vacina" positionX="-54" positionY="27" width="128" height="150"/>
+    </elements>
 </model>

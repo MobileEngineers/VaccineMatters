@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40AE3EF1B2866AB003E8238 /* Filho+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3ED1B2866AB003E8238 /* Filho+CoreDataProperties.swift */; };
+		E40AE3F01B2866AB003E8238 /* Filho.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3EE1B2866AB003E8238 /* Filho.swift */; };
+		E40AE3F31B2866AB003E8238 /* Vacina+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3F11B2866AB003E8238 /* Vacina+CoreDataProperties.swift */; };
+		E40AE3F41B2866AB003E8238 /* Vacina.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3F21B2866AB003E8238 /* Vacina.swift */; };
 		E4C9EF0F1B28633A0029B94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */; };
 		E4C9EF111B28633A0029B94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF101B28633A0029B94C /* ViewController.swift */; };
 		E4C9EF141B28633A0029B94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF121B28633A0029B94C /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		E4C9EF1C1B28633A0029B94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF1A1B28633A0029B94C /* LaunchScreen.storyboard */; };
 		E4C9EF271B28633A0029B94C /* VaccineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF261B28633A0029B94C /* VaccineTests.swift */; };
 		E4C9EF321B28633A0029B94C /* VaccineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF311B28633A0029B94C /* VaccineUITests.swift */; };
+		E4C9EF411B2863CA0029B94C /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF401B2863CA0029B94C /* CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40AE3ED1B2866AB003E8238 /* Filho+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Filho+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E40AE3EE1B2866AB003E8238 /* Filho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filho.swift; sourceTree = "<group>"; };
+		E40AE3F11B2866AB003E8238 /* Vacina+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vacina+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E40AE3F21B2866AB003E8238 /* Vacina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacina.swift; sourceTree = "<group>"; };
 		E4C9EF0B1B28633A0029B94C /* Vaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4C9EF101B28633A0029B94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		E4C9EF2D1B28633A0029B94C /* VaccineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C9EF311B28633A0029B94C /* VaccineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineUITests.swift; sourceTree = "<group>"; };
 		E4C9EF331B28633A0029B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C9EF401B2863CA0029B94C /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,13 @@
 		E4C9EF0D1B28633A0029B94C /* Vaccine */ = {
 			isa = PBXGroup;
 			children = (
+				E4C9EF3F1B2863A40029B94C /* CoreData */,
 				E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */,
 				E4C9EF101B28633A0029B94C /* ViewController.swift */,
 				E4C9EF121B28633A0029B94C /* Main.storyboard */,
 				E4C9EF181B28633A0029B94C /* Assets.xcassets */,
 				E4C9EF1A1B28633A0029B94C /* LaunchScreen.storyboard */,
 				E4C9EF1D1B28633A0029B94C /* Info.plist */,
-				E4C9EF151B28633A0029B94C /* Vaccine.xcdatamodeld */,
 			);
 			path = Vaccine;
 			sourceTree = "<group>";
@@ -126,6 +136,19 @@
 				E4C9EF331B28633A0029B94C /* Info.plist */,
 			);
 			path = VaccineUITests;
+			sourceTree = "<group>";
+		};
+		E4C9EF3F1B2863A40029B94C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E4C9EF151B28633A0029B94C /* Vaccine.xcdatamodeld */,
+				E4C9EF401B2863CA0029B94C /* CoreData.swift */,
+				E40AE3F11B2866AB003E8238 /* Vacina+CoreDataProperties.swift */,
+				E40AE3F21B2866AB003E8238 /* Vacina.swift */,
+				E40AE3ED1B2866AB003E8238 /* Filho+CoreDataProperties.swift */,
+				E40AE3EE1B2866AB003E8238 /* Filho.swift */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C9EF411B2863CA0029B94C /* CoreData.swift in Sources */,
+				E40AE3F41B2866AB003E8238 /* Vacina.swift in Sources */,
 				E4C9EF111B28633A0029B94C /* ViewController.swift in Sources */,
 				E4C9EF171B28633A0029B94C /* Vaccine.xcdatamodeld in Sources */,
+				E40AE3F31B2866AB003E8238 /* Vacina+CoreDataProperties.swift in Sources */,
 				E4C9EF0F1B28633A0029B94C /* AppDelegate.swift in Sources */,
+				E40AE3F01B2866AB003E8238 /* Filho.swift in Sources */,
+				E40AE3EF1B2866AB003E8238 /* Filho+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +513,7 @@
 				E4C9EF381B28633A0029B94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4C9EF391B28633A0029B94C /* Build configuration list for PBXNativeTarget "VaccineTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +522,7 @@
 				E4C9EF3B1B28633A0029B94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4C9EF3C1B28633A0029B94C /* Build configuration list for PBXNativeTarget "VaccineUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +531,7 @@
 				E4C9EF3E1B28633A0029B94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
