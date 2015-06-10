@@ -1,15 +1,14 @@
 //
-//  Vaccine_MattersTests.swift
-//  Vaccine MattersTests
+//  VaccineTests.swift
+//  VaccineTests
 //
 //  Created by Isaías Lima on 10/06/15.
-//  Copyright (c) 2015 Mobile Engineers. All rights reserved.
+//  Copyright © 2015 Mobile Engineers. All rights reserved.
 //
 
-import UIKit
 import XCTest
 
-class Vaccine_MattersTests: XCTestCase {
+class VaccineTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,7 +22,7 @@ class Vaccine_MattersTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {

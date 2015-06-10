@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Vaccine Matters.xcodeproj">
+      location = "self:Vaccine.xcodeproj">
    </FileRef>
 </Workspace>
