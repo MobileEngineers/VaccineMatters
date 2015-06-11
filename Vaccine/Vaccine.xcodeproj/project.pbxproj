@@ -16,7 +16,6 @@
 		E4C9EF141B28633A0029B94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF121B28633A0029B94C /* Main.storyboard */; };
 		E4C9EF171B28633A0029B94C /* Vaccine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF151B28633A0029B94C /* Vaccine.xcdatamodeld */; };
 		E4C9EF191B28633A0029B94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF181B28633A0029B94C /* Assets.xcassets */; };
-		E4C9EF1C1B28633A0029B94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF1A1B28633A0029B94C /* LaunchScreen.storyboard */; };
 		E4C9EF271B28633A0029B94C /* VaccineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF261B28633A0029B94C /* VaccineTests.swift */; };
 		E4C9EF321B28633A0029B94C /* VaccineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF311B28633A0029B94C /* VaccineUITests.swift */; };
 		E4C9EF411B2863CA0029B94C /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF401B2863CA0029B94C /* CoreData.swift */; };
@@ -50,7 +49,6 @@
 		E4C9EF131B28633A0029B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4C9EF161B28633A0029B94C /* Vaccine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vaccine.xcdatamodel; sourceTree = "<group>"; };
 		E4C9EF181B28633A0029B94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4C9EF1B1B28633A0029B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4C9EF1D1B28633A0029B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C9EF221B28633A0029B94C /* VaccineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C9EF261B28633A0029B94C /* VaccineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineTests.swift; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 				E4C9EF101B28633A0029B94C /* ViewController.swift */,
 				E4C9EF121B28633A0029B94C /* Main.storyboard */,
 				E4C9EF181B28633A0029B94C /* Assets.xcassets */,
-				E4C9EF1A1B28633A0029B94C /* LaunchScreen.storyboard */,
 				E4C9EF1D1B28633A0029B94C /* Info.plist */,
 			);
 			path = Vaccine;
@@ -254,7 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C9EF1C1B28633A0029B94C /* LaunchScreen.storyboard in Resources */,
 				E4C9EF191B28633A0029B94C /* Assets.xcassets in Resources */,
 				E4C9EF141B28633A0029B94C /* Main.storyboard in Resources */,
 			);
@@ -330,14 +326,6 @@
 				E4C9EF131B28633A0029B94C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E4C9EF1A1B28633A0029B94C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4C9EF1B1B28633A0029B94C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vaccine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MoEE.Vaccine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vaccine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MoEE.Vaccine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
