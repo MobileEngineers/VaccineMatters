@@ -2,7 +2,7 @@
 //  Filho+CoreDataProperties.swift
 //  Vaccine
 //
-//  Created by Isaías Lima on 10/06/15.
+//  Created by Isaías Lima on 11/06/15.
 //  Copyright © 2015 Mobile Engineers. All rights reserved.
 //
 //  Delete this file and regenerate it using "Create NSManagedObject Subclass…"
@@ -14,7 +14,6 @@ import CoreData
 
 extension Filho {
 
-    @NSManaged var backgroundColor: NSData?
     @NSManaged var checkCalendario: Bool
     @NSManaged var genero: Bool
     @NSManaged var nascimento: NSDate?

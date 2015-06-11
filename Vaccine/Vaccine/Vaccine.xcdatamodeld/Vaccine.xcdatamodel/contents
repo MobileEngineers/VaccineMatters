@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8118.17" systemVersion="15A178w" minimumToolsVersion="Automatic">
     <entity name="Filho" representedClassName=".Filho" syncable="YES">
-        <attribute name="backgroundColor" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="checkCalendario" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="genero" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="nascimento" optional="YES" attributeType="Date" syncable="YES"/>
@@ -18,7 +17,7 @@
         <relationship name="filho" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Filho" inverseName="vacinas" inverseEntity="Filho" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Filho" positionX="-324" positionY="36" width="128" height="135"/>
+        <element name="Filho" positionX="-324" positionY="36" width="128" height="120"/>
         <element name="Vacina" positionX="-54" positionY="27" width="128" height="150"/>
     </elements>
 </model>

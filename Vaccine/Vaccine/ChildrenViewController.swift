@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import CoreData
 
-class ChildrenViewController: UITableViewController {
+class ChildrenViewController: UITableViewController, CadastroDelegate {
 
     @IBOutlet var headerView: UIView!
-    let vector: [String] = ["Ana", "Isaías", "Lídia", "Matheus"]
+    var filhos: NSArray!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,16 @@ class ChildrenViewController: UITableViewController {
         self.navigationController?.navigationBar.translucent = true
         self.navigationController?.navigationBar.tintColor = UIColor(red: 33/255, green: 255/255, blue: 192/255, alpha: 1.0)
         
+        let fetchRequest = NSFetchRequest(entityName: "Filho")
+        fetchRequest.returnsObjectsAsFaults = false
+
+        do {
+            try filhos = CoreData.sharedInstance.managedObjectContext.executeFetchRequest(fetchRequest)
+        } catch {
+            let nserror = error as NSError
+            NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+            abort()
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,14 +49,15 @@ class ChildrenViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return vector.count
+        return filhos.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("children", forIndexPath: indexPath)
 
-        cell.textLabel?.text = vector[indexPath.row]
+        let filho = filhos.objectAtIndex(indexPath.row) as! Filho
+        cell.textLabel?.text = filho.nome
 
         return cell
     }
@@ -85,15 +97,38 @@ class ChildrenViewController: UITableViewController {
         return true
     }
     */
+    
+    func novoFilho(nome: String, genero: Bool, nascimento: NSDate) {
+        
+        let novoFilho = NSEntityDescription.insertNewObjectForEntityForName("Filho", inManagedObjectContext: CoreData.sharedInstance.managedObjectContext) as! Filho
+        novoFilho.nome = nome
+        novoFilho.genero = genero
+        novoFilho.nascimento = nascimento
+        
+        do {
+            try CoreData.sharedInstance.managedObjectContext.save()
+        } catch {
+            let nserror = error as NSError
+            NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+            abort()
+        }
+        
+        self.tableView.reloadData()
+        
+    }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "cadastro" {
+            let viewController = segue.destinationViewController as! CadastroViewController
+            viewController.delegate = self
+        }
+        
     }
-    */
+    
 
 }

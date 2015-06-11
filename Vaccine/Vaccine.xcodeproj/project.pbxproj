@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E40AE3EF1B2866AB003E8238 /* Filho+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3ED1B2866AB003E8238 /* Filho+CoreDataProperties.swift */; };
-		E40AE3F01B2866AB003E8238 /* Filho.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3EE1B2866AB003E8238 /* Filho.swift */; };
-		E40AE3F31B2866AB003E8238 /* Vacina+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3F11B2866AB003E8238 /* Vacina+CoreDataProperties.swift */; };
-		E40AE3F41B2866AB003E8238 /* Vacina.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3F21B2866AB003E8238 /* Vacina.swift */; };
 		E4C9EF0F1B28633A0029B94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */; };
 		E4C9EF141B28633A0029B94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF121B28633A0029B94C /* Main.storyboard */; };
 		E4C9EF171B28633A0029B94C /* Vaccine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF151B28633A0029B94C /* Vaccine.xcdatamodeld */; };
@@ -19,6 +15,11 @@
 		E4C9EF321B28633A0029B94C /* VaccineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF311B28633A0029B94C /* VaccineUITests.swift */; };
 		E4C9EF411B2863CA0029B94C /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF401B2863CA0029B94C /* CoreData.swift */; };
 		E4E7B27F1B29C36400131DDE /* ChildrenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B27E1B29C36400131DDE /* ChildrenViewController.swift */; };
+		E4E7B2811B2A389700131DDE /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B2801B2A389700131DDE /* CadastroViewController.swift */; };
+		E4E7B2841B2A49C900131DDE /* Filho+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B2821B2A49C900131DDE /* Filho+CoreDataProperties.swift */; };
+		E4E7B2851B2A49C900131DDE /* Filho.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B2831B2A49C900131DDE /* Filho.swift */; };
+		E4E7B2881B2A49C900131DDE /* Vacina+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B2861B2A49C900131DDE /* Vacina+CoreDataProperties.swift */; };
+		E4E7B2891B2A49C900131DDE /* Vacina.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B2871B2A49C900131DDE /* Vacina.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E40AE3ED1B2866AB003E8238 /* Filho+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Filho+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E40AE3EE1B2866AB003E8238 /* Filho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filho.swift; sourceTree = "<group>"; };
-		E40AE3F11B2866AB003E8238 /* Vacina+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vacina+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E40AE3F21B2866AB003E8238 /* Vacina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacina.swift; sourceTree = "<group>"; };
 		E4C9EF0B1B28633A0029B94C /* Vaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4C9EF131B28633A0029B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +54,11 @@
 		E4C9EF331B28633A0029B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C9EF401B2863CA0029B94C /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		E4E7B27E1B29C36400131DDE /* ChildrenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildrenViewController.swift; sourceTree = "<group>"; };
+		E4E7B2801B2A389700131DDE /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		E4E7B2821B2A49C900131DDE /* Filho+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Filho+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4E7B2831B2A49C900131DDE /* Filho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filho.swift; sourceTree = "<group>"; };
+		E4E7B2861B2A49C900131DDE /* Vacina+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vacina+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4E7B2871B2A49C900131DDE /* Vacina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacina.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				E4C9EF181B28633A0029B94C /* Assets.xcassets */,
 				E4C9EF1D1B28633A0029B94C /* Info.plist */,
 				E4E7B27E1B29C36400131DDE /* ChildrenViewController.swift */,
+				E4E7B2801B2A389700131DDE /* CadastroViewController.swift */,
 			);
 			path = Vaccine;
 			sourceTree = "<group>";
@@ -140,10 +143,10 @@
 			children = (
 				E4C9EF151B28633A0029B94C /* Vaccine.xcdatamodeld */,
 				E4C9EF401B2863CA0029B94C /* CoreData.swift */,
-				E40AE3F11B2866AB003E8238 /* Vacina+CoreDataProperties.swift */,
-				E40AE3F21B2866AB003E8238 /* Vacina.swift */,
-				E40AE3ED1B2866AB003E8238 /* Filho+CoreDataProperties.swift */,
-				E40AE3EE1B2866AB003E8238 /* Filho.swift */,
+				E4E7B2861B2A49C900131DDE /* Vacina+CoreDataProperties.swift */,
+				E4E7B2871B2A49C900131DDE /* Vacina.swift */,
+				E4E7B2821B2A49C900131DDE /* Filho+CoreDataProperties.swift */,
+				E4E7B2831B2A49C900131DDE /* Filho.swift */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -277,14 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E7B2841B2A49C900131DDE /* Filho+CoreDataProperties.swift in Sources */,
 				E4C9EF411B2863CA0029B94C /* CoreData.swift in Sources */,
-				E40AE3F41B2866AB003E8238 /* Vacina.swift in Sources */,
+				E4E7B2811B2A389700131DDE /* CadastroViewController.swift in Sources */,
+				E4E7B2851B2A49C900131DDE /* Filho.swift in Sources */,
 				E4C9EF171B28633A0029B94C /* Vaccine.xcdatamodeld in Sources */,
-				E40AE3F31B2866AB003E8238 /* Vacina+CoreDataProperties.swift in Sources */,
 				E4C9EF0F1B28633A0029B94C /* AppDelegate.swift in Sources */,
-				E40AE3F01B2866AB003E8238 /* Filho.swift in Sources */,
-				E40AE3EF1B2866AB003E8238 /* Filho+CoreDataProperties.swift in Sources */,
+				E4E7B2891B2A49C900131DDE /* Vacina.swift in Sources */,
 				E4E7B27F1B29C36400131DDE /* ChildrenViewController.swift in Sources */,
+				E4E7B2881B2A49C900131DDE /* Vacina+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  Filho.swift
 //  Vaccine
 //
-//  Created by Isaías Lima on 10/06/15.
+//  Created by Isaías Lima on 11/06/15.
 //  Copyright © 2015 Mobile Engineers. All rights reserved.
 //
 
@@ -13,9 +13,5 @@ import CoreData
 class Filho: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
-    
-    func addVacina(vacina: Vacina) {
-        self.vacinas = self.vacinas?.setByAddingObject(vacina)
-    }
 
 }
