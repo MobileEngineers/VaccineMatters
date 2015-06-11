@@ -12,13 +12,13 @@
 		E40AE3F31B2866AB003E8238 /* Vacina+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3F11B2866AB003E8238 /* Vacina+CoreDataProperties.swift */; };
 		E40AE3F41B2866AB003E8238 /* Vacina.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40AE3F21B2866AB003E8238 /* Vacina.swift */; };
 		E4C9EF0F1B28633A0029B94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */; };
-		E4C9EF111B28633A0029B94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF101B28633A0029B94C /* ViewController.swift */; };
 		E4C9EF141B28633A0029B94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF121B28633A0029B94C /* Main.storyboard */; };
 		E4C9EF171B28633A0029B94C /* Vaccine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF151B28633A0029B94C /* Vaccine.xcdatamodeld */; };
 		E4C9EF191B28633A0029B94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C9EF181B28633A0029B94C /* Assets.xcassets */; };
 		E4C9EF271B28633A0029B94C /* VaccineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF261B28633A0029B94C /* VaccineTests.swift */; };
 		E4C9EF321B28633A0029B94C /* VaccineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF311B28633A0029B94C /* VaccineUITests.swift */; };
 		E4C9EF411B2863CA0029B94C /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9EF401B2863CA0029B94C /* CoreData.swift */; };
+		E4E7B27F1B29C36400131DDE /* ChildrenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B27E1B29C36400131DDE /* ChildrenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		E40AE3F21B2866AB003E8238 /* Vacina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacina.swift; sourceTree = "<group>"; };
 		E4C9EF0B1B28633A0029B94C /* Vaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4C9EF101B28633A0029B94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4C9EF131B28633A0029B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4C9EF161B28633A0029B94C /* Vaccine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vaccine.xcdatamodel; sourceTree = "<group>"; };
 		E4C9EF181B28633A0029B94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		E4C9EF311B28633A0029B94C /* VaccineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineUITests.swift; sourceTree = "<group>"; };
 		E4C9EF331B28633A0029B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C9EF401B2863CA0029B94C /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		E4E7B27E1B29C36400131DDE /* ChildrenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildrenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +109,10 @@
 			children = (
 				E4C9EF3F1B2863A40029B94C /* CoreData */,
 				E4C9EF0E1B28633A0029B94C /* AppDelegate.swift */,
-				E4C9EF101B28633A0029B94C /* ViewController.swift */,
 				E4C9EF121B28633A0029B94C /* Main.storyboard */,
 				E4C9EF181B28633A0029B94C /* Assets.xcassets */,
 				E4C9EF1D1B28633A0029B94C /* Info.plist */,
+				E4E7B27E1B29C36400131DDE /* ChildrenViewController.swift */,
 			);
 			path = Vaccine;
 			sourceTree = "<group>";
@@ -279,12 +279,12 @@
 			files = (
 				E4C9EF411B2863CA0029B94C /* CoreData.swift in Sources */,
 				E40AE3F41B2866AB003E8238 /* Vacina.swift in Sources */,
-				E4C9EF111B28633A0029B94C /* ViewController.swift in Sources */,
 				E4C9EF171B28633A0029B94C /* Vaccine.xcdatamodeld in Sources */,
 				E40AE3F31B2866AB003E8238 /* Vacina+CoreDataProperties.swift in Sources */,
 				E4C9EF0F1B28633A0029B94C /* AppDelegate.swift in Sources */,
 				E40AE3F01B2866AB003E8238 /* Filho.swift in Sources */,
 				E40AE3EF1B2866AB003E8238 /* Filho+CoreDataProperties.swift in Sources */,
+				E4E7B27F1B29C36400131DDE /* ChildrenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
